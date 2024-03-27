@@ -15,7 +15,7 @@ O PHP é uma linguagem de progamação utilizada para construi sites dinâmicos 
 **Contexto:**
 O sistema de uma empresa foi atualizado visando evitar a perda de funcionários, esse novo sistema trabaha utlizando de metas para seus vendedores que recebem um bônus extra no seu salário. As metas são dads por semanas, cada vendedor tem uma meta de R$20.000 para alcançar, somando R$80.000 ao final do mês. Caso o vendedor consiga alcançar esse valor, ele receberá uma bonificação de 1% do valor, caso ele alcançar um valor maior que o esperado, receberá uma bonificação de %5 do valor, se ao final do mês o vaor ultrapassar de R$80.000, ele recebe uma bonificação de 10% (caso o vendedor não bata as metas esperadas, não terá o bônus). Precisaríamos criar um código que solicitasse o nome do vendedo, os valores de meta semanal para assim o sistema calcular o salaário final ao usuário.
 
-![imagem da página inicial montada](IMG/printela02.png)
+![imagem da página inicial montada](imagem/printela02.png)
 
 ## Funcionalidades
 
