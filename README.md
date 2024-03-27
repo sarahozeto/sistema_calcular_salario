@@ -1,2 +1,34 @@
-# sistema_calcular_salario
-Trabalho executado durante as aulas de Progamação Web II com o intuíto de trabalhar nossas habilidades com PHP usando calculo. O código pede o nome de um vendedor de uma determinada empresa para calcular o valor de sua meta semanal e mensal.
+# INDÍCE
+[Projeto de Sistema para Calcular Salário - Introdução]()
+[Funcionalidades](#funcionalidades)  
+[Tecnologias utilizadas](#tecnologias-utilizadas)  
+[Fontes consultadas](#fontes-consultadas)  
+[Autores](#autores)  
+
+
+# Projeto de Sistema para Calcular Salário - Introdução
+
+![Imagem da página inicial]()
+
+## Funcionalidades
+
+### FUNCIONALIDADE 01
+
+### FUNCIONALIDADE 02
+
+### FUNCIONALIDADE 03
+
+## FONTES CONSULTADAS
+
+## Tecnologias utilizadas
+Neste projetos tivemos o uso de:
+* HTML 5 
+* CSS 3
+* PHP
+* XAMPP
+* GIT 
+* GITHUB
+
+## Autores
+
+Sarah Ozeto, com a orientação do professor Leonardo Rocha.
