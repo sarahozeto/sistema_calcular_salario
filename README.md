@@ -8,7 +8,9 @@
 
 # Projeto de Sistema para Calcular Salário - Introdução
 
-![Imagem da página inicial](imagem/img-printelainicial.png)
+![Imagem da página inicial](imagem/printelainicial.png)
+
+
 
 ## Funcionalidades
 
@@ -19,6 +21,7 @@
 ### FUNCIONALIDADE 03
 
 ## FONTES CONSULTADAS
+[Informações sobre o salário mínimo:]( https://www.aen.pr.gov.br/Noticia/Maior-do-Brasil-governador-confirma-novo-Piso-Regional-que-vai-de-R-18-mil-R-21-mil#:~:text=Na%20primeira%2C%20que%20contempla%20os,de%20R%24%201.927%2C02.)
 
 ## Tecnologias utilizadas
 Neste projetos tivemos o uso de:
