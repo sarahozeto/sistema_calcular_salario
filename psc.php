@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="psc.css">
 </head>
 <body>
-<h1> -- CÁLCULO DE SALÁRIO -- </h1>
+
+<div id="teste">
 
 <form method="post">
-    <div id="teste">
+    <h1> -- CÁLCULO DE SALÁRIO -- </h1>
+<br>        
 <label for="inputZip" class="form-label">Informe seu nome:</label>
 <br>
 <input type="text" class="form-control" name="nome">
@@ -27,14 +29,7 @@
 
 <br><br><br>
     <button type="submit" class="btn btn-primary">Calcular</button>
-</div>
-</form>
-
-<!-- INFORMAÇÕES PRINCIPAIS:
- - Salário final = Salário mínimo + valor sobre meta semanal + valor sobre o excedente de meta semanal + valor de excedente de meta mensal 
-Para o cumprimento de meta semanal: receberá  1% sobre o valor da meta.
-Para o excedente de meta semanal: Receberá 5% sobre o excedente da meta semanal.
-Para o excedente de meta mensal: Receberá 10% sobre o excedente de meta mensal.-->
+<br><br>
 
 <?php
     $nome = filter_input(INPUT_POST, "nome"); 
@@ -42,19 +37,37 @@ Para o excedente de meta mensal: Receberá 10% sobre o excedente de meta mensal.
     $semana2 = filter_input(INPUT_POST, "valorsemanal2");
     $semana3 = filter_input(INPUT_POST, "valorsemanal3");
     $semana4 = filter_input(INPUT_POST, "valorsemanal4");
+    $mes = $semana1 + $semana2 + $semana3 + $semana4;
     $salariomin = 1927.02;
     $metamensal = 80000;
-
+    $bonusmensal = true;
+    $salariofinal = $salariomin;
+    
     $semanas = [$semana1, $semana2, $semana3, $semana4];
-
+    
     foreach($semanas as $semana){
-        if($semana  < 20000) {
-            echo "burro";
+        if($semana < 20000) {
+            $bonusmensal = false;
         } else {
-            echo "legal";
+            $salariofinal += 200;
+            $salariofinal += ($semana - 20000) * 0.05;
         }
     }
+    if($bonusmensal){
+        $salariofinal += ($mes - $metamensal) * 0.1;
+    }
+
+    echo "o salário do vendedor $nome será $salariofinal";
     
 ?>
+</form>
+</div>
+
+<!-- INFORMAÇÕES PRINCIPAIS:
+ - Salário final = Salário mínimo + valor sobre meta semanal + valor sobre o excedente de meta semanal + valor de excedente de meta mensal 
+Para o cumprimento de meta semanal: receberá  1% sobre o valor da meta.
+Para o excedente de meta semanal: Receberá 5% sobre o excedente da meta semanal.
+Para o excedente de meta mensal: Receberá 10% sobre o excedente de meta mensal.-->
+
 </body>
 </html>
