@@ -8,7 +8,7 @@
 
 # Projeto de Sistema para Calcular Salário - Introdução
 
-![Imagem da página inicial]())
+![Imagem da página inicial](imagem/img-printelainicial.png)
 
 ## Funcionalidades
 
