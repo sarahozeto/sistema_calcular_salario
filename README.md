@@ -19,11 +19,11 @@ O sistema de uma empresa foi atualizado visando evitar a perda de funcionários,
 
 ## Funcionalidades
 
-### FUNCIONALIDADE 01
+### CÁLCULO DE PORCENTAGEM
 
-### FUNCIONALIDADE 02
+### ARRAY
 
-### FUNCIONALIDADE 03
+### FOREACH
 
 ## FONTES CONSULTADAS
 [Informações sobre o salário mínimo:](https://www.aen.pr.gov.br/Noticia/Maior-do-Brasil-governador-confirma-novo-Piso-Regional-que-vai-de-R-18-mil-R-21-mil#)
